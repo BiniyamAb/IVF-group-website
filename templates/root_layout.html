@@ -24,8 +24,8 @@
                         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">FAQs</a></li>&nbsp;&nbsp;&nbsp;
                         {% block auth %}
-                        <li class="nav-item"><a class="nav-link nav-link-auth bg-success" href="#">Login</a></li>&nbsp;&nbsp;
-                        <li class="nav-item"><a class="nav-link nav-link-auth bg-success" href="#">Sign up&nbsp;&nbsp;&nbsp;&nbsp;</a></li> 
+                        <li class="nav-item"><a class="nav-link nav-link-auth bg-success" href="{{ url_for('auth_login') }}">Login</a></li>&nbsp;&nbsp;
+                        <li class="nav-item"><a class="nav-link nav-link-auth bg-success" href="{{ url_for('auth_signup') }}">Sign up&nbsp;&nbsp;&nbsp;&nbsp;</a></li> 
                         {% endblock auth %}                        
                     </ul>
                 </div>
@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 mb-5">Online support Group of women concerned about IVF in Ethiopia</p>
-                        <a class="btn btn-xl" href="#about">Find Out More</a>
+                        <a class="btn btn-xl" href="#about">Explore</a>
                     </div>
                 </div>
             </div>

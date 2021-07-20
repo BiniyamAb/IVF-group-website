@@ -1,0 +1,9 @@
+{% extends 'auth_layout.html' %}
+
+
+
+{% block title %}Login{% endblock title %}
+
+{% block auth_title %}Login{% endblock auth_title %}
+
+{% block suggestion %}Don't Have an account? <a href="{{ url_for('auth_signup') }}">Sign up</a>{% endblock suggestion %}
