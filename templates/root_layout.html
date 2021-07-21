@@ -24,8 +24,8 @@
                         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">FAQs</a></li>&nbsp;&nbsp;&nbsp;
                         {% block auth %}
-                        <li class="nav-item"><a class="nav-link nav-link-auth bg-success" href="{{ url_for('auth_login') }}">Login</a></li>&nbsp;&nbsp;
-                        <li class="nav-item"><a class="nav-link nav-link-auth bg-success" href="{{ url_for('auth_signup') }}">Sign up&nbsp;&nbsp;&nbsp;&nbsp;</a></li> 
+                        <li class="nav-item"><a class="nav-link nav-link-auth" href="{{ url_for('auth_login') }}">Login</a></li>&nbsp;&nbsp;
+                        <li class="nav-item"><a class="nav-link nav-link-auth" href="{{ url_for('auth_signup') }}">Sign up&nbsp;&nbsp;&nbsp;&nbsp;</a></li> 
                         {% endblock auth %}                        
                     </ul>
                 </div>
