@@ -19,9 +19,10 @@
                 <form class="auth-form d-flex flex-column justify-content-center" action="">
                     <p class="auth-title text-center">{% block auth_title %}{% endblock auth_title %}</p>
                     <label for="uname">Username</label>
-                    <input type="text" id="uname" name="firstname">
+                    <input required type="text" id="uname" name="uname">
                     <label for="pword">Password</label>
-                    <input type="text" id="pword" name="firstname">
+                    <input required type="text" id="pword" name="pword">
+                    {% block additional_form %}{% endblock additional_form %}
                     <input class="btn btn-success" type="submit">
                     <p class="account-present text-center">{% block suggestion %}{% endblock suggestion %}</p>
                 </form>

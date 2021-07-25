@@ -1,6 +1,4 @@
 body{
-  padding-top: 2rem;
-  padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(to bottom, rgba(43, 42, 42, 0.8) 0%, rgba(156, 151, 147, 0.8) 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -24,16 +22,15 @@ body{
 }
 
 .form-cont{
-    margin-top: 0.5rem;
+    margin-top: 0rem;
 }
 
 .auth-form{
-    margin-top: 1rem;
+    margin-top: 0.8rem;
     background-color: black;
     opacity: 0.6;
     width: 27rem;
-    padding: 2% 3%;
-    padding-bottom: 3%;
+    padding: 1% 3%;
 }
 
 .auth-form .auth-title{
@@ -42,18 +39,18 @@ body{
 }
 
 .auth-form label{
-    margin-top: 1rem;
+    margin-top: 0.6rem;
 }
 
-.auth-form input[type=text]{
-    margin-top: 1rem;
+.auth-form input[type=text], #challenges, #profession{
+    margin-top: 0.5rem;
     height: 2.5rem;
     padding: 0% 0.9rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     border: none;
 }
 
-.auth-form input[type=text]:focus{
+.auth-form input[type=text], #profession, #challenges:focus{
     border: none;
     padding: 0% 0.9rem;
     outline: none;
@@ -61,8 +58,9 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 .auth-form input[type=submit]{
-    margin-top: 2rem;
+    margin-top: 1.6rem;
     font-size: 1.1rem;
 }
 
@@ -77,4 +75,15 @@ body{
 
 .account-present a{
     text-decoration: none;
+}
+
+#signup-suggestion{
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-bottom: 3.5px;
+    transition: border 0.2s ease;
+}
+
+#signup-suggestion:hover{
+    border-bottom: 1px solid #25ad19;
 }

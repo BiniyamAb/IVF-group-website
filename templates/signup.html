@@ -4,4 +4,28 @@
 
 {% block auth_title %}Sign Up{% endblock auth_title %}
 
+{% block additional_form %}
+<label for="challenges">Challenges You're Facing</label>
+<select name="challenges" id="challenges">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+</select>
+
+<label for="profession">Profession</label>
+<select name="profession" id="profession">
+    <option value="opel">Opel</option>  
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+</select>
+{% endblock additional_form %}
+
+
 {% block suggestion %}Already Have an account? <a href="{{ url_for('auth_login') }}">Login</a>{% endblock suggestion %}
