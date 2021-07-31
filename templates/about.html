@@ -1,0 +1,39 @@
+{% extends 'base_layout.html' %}
+
+{% block title %}IVF goup ETH - Contact{% endblock title %}
+
+
+{% block additional_style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/aboutStyle.css') }}" type="text/css">
+
+{% endblock additional_style %}
+
+
+
+{% block body %}
+
+<div id="about-page-cont" class="container">
+    <div class="row">
+        <div class="col-md-6 pe-5">
+            <h1 class="about text-center">About.</h1>
+            <hr class="mt-1">
+            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis sed odio morbi quis commodo odio aenean sed. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque. Ac ut consequat semper viverra.</p>
+            <p>Lobortis feugiat vivamus at augue eget. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales. Sed turpis tincidunt id aliquet risus feugiat.</p>
+            <p>Volutpat ac tincidunt vitae semper quis lectus nulla. Massa sapien faucibus et molestie ac feugiat. Enim praesent elementum facilisis leo vel fringilla est.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="{{ url_for('static', filename='img/womenAbout.png') }}" alt="">
+        </div>
+
+    </div>
+</div>
+
+{% endblock body %}
+
+
+
+
+
+{% block additional_script %}
+<!-- to be filled in -->
+{% endblock additional_script %}

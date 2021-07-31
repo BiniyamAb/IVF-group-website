@@ -1,0 +1,53 @@
+#contact-page-cont{
+    margin-top: 7rem;
+    width: 70%;
+}
+
+#contact-page-cont .lets-talk, #everything{
+    font-family:monospace;
+    font-weight:bold;
+    letter-spacing: 0.02rem;
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-left: 4rem;
+}
+
+#everything{
+    color: #f4623a;
+}
+
+#contact-page-cont .row .col-md-6 img{
+    width: 28rem;
+    height: 28rem;
+}
+
+#contact-page-cont .form-floating #floatingInput{
+    border-radius: 0;
+    border: none;
+    background-color: rgba(196, 196, 196, 0.164);
+}
+
+#contact-page-cont .form-floating label{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#contact-page-cont .form-floating #floating-Input:focus{
+    border: none;
+    box-shadow: inset 0 -1px 0 #ddd;
+}
+
+
+#contact-page-cont textarea{
+    height: 13rem;
+    border: none;
+    background-color: rgba(196, 196, 196, 0.164);
+    border-radius: none;
+}
+
+#contact-page-cont #send{
+    background-color: #f4623a;
+    border: none;
+    border-radius: none;
+    height: 3.4rem;
+    width: 8.75rem;
+}
