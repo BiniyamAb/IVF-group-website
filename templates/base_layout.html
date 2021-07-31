@@ -22,15 +22,15 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url_for('about') }}">About</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Connect</a>
                             <ul class="dropdown-menu">
                                 <li id="subs"> <a class="dropdown-item" id="a-s" href="#">Forum</a></li>
-                                <li id="subs"> <a class="dropdown-item" id="a-s" href="#">Events</a>
+                                <li id="subs"> <a class="dropdown-item" id="a-s" href="#">Events&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-caret-right"></i></a>
                                     <ul class="submenu dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Online</a></li>
-                                        <li><a class="dropdown-item" href="#">In Person</a></li>
+                                        <li><a id="a-s-s" class="dropdown-item" href="#">Online</a></li>
+                                        <li><a id="a-s-s" class="dropdown-item" href="#">In Person</a></li>
                                     </ul>
                                 </li>
                             </ul>

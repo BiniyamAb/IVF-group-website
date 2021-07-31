@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("about.html")
+    return render_template("root_layout.html")
 
 @app.route("/auth/login")
 def auth_login():
