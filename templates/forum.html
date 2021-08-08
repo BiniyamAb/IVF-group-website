@@ -1,0 +1,245 @@
+{% extends 'base_layout.html' %}
+
+{% block title %}IVF goup ETH - Contact{% endblock title %}
+
+
+{% block additional_style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/forumStyle.css') }}" type="text/css">
+
+{% endblock additional_style %}
+
+
+
+{% block body %}
+
+<div id="lead-cont" class="container-fluid d-flex align-items-center justify-content-center">
+    <div class="text-center">
+        <span class="center">Let's </span><span class="talk">Talk </span><span class="about">About </span><span class="it">It.</span>
+    </div>
+</div>
+
+<div class="container-fluid forum-body" style="padding: 3rem 6rem;">
+
+    <!-- General Discussions -->
+    <div class="container-fluid">
+        <p class="forum-title ms-5 mb-5">&nbsp;General Discussions</p>
+        <div class="container-fluid">
+            <div class="row space-evenly d-flex justify-content-evenly">
+                <div class="card col-md-4" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="{{ url_for('static', filename='img/womenLaughing.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Egg Collection</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card col-md-4" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1414322058660-a4c56ab6c1e2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjB3b21lbiUyMGhvbGRpbmclMjBhJTIwbGluZXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital High Magnification</h5>
+                            <p class="card-text">Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus. Nunc consequat interdum varius sit.</p>
+                        </div>
+                    </a>    
+                </div>
+
+                <div class="card col-md-4" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1520857014576-2c4f4c972b57?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdvbWVufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital High Magnification</h5>
+                            <p class="card-text">Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus. Nunc consequat interdum varius sit.</p>
+                        </div>
+                    </a>    
+                </div>
+
+
+                <div class="card col-md-4 mt-5" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1581404917879-53e19259fdda?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d29tZW58ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Clomiphine Citrate</h5>
+                            <p class="card-text">Egestas sed tempus urna et pharetra. Elit pellentesque habitant morbi tristique senectus et.</p>
+                        </div>
+                    </a>    
+                </div>
+
+                <div class="card col-md-4 mt-5" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1436262513933-a0b06755c784?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjB3b21lbiUyMGhvbGRpbmclMjBhJTIwbGluZXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ART</h5>
+                            <p class="card-text">Ut eu sem integer vitae justo eget magna fermentum iaculis.</p>
+                        </div>
+                    </a>    
+                </div>
+
+                <div class="card col-md-4 mt-5" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1520960858461-ac671067213e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d29tZW58ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Assisted Hatching</h5>
+                            <p class="card-text">Cursus eget nunc scelerisque viverra mauris in aliquam. Velit dignissim sodales ut eu sem.</p>
+                        </div>
+                    </a>    
+                </div>
+            </div>
+        </div>
+    </div>       
+    
+    <!-- Group Discussions -->
+    <div class="container-fluid" style="margin-top: 7rem;">
+        <p class="forum-title ms-5 mb-5">&nbsp;Group Discussions</p>
+        <div class="container-fluid">
+            <div class="row space-evenly d-flex justify-content-evenly">
+                <div class="card col-md-6" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1590650046871-92c887180603?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d29tZW58ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">June's flowers</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card col-4" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1556159992-e189f8e50104?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHdvbWVufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">December 2020</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>    
+                </div>
+
+                <div class="card col-4" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1574255155611-e864ecb66c0f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHdvbWVufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Road to ivf March 2021</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>    
+                </div>
+
+                <div class="card col-md-4 mt-5" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1520857014576-2c4f4c972b57?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdvbWVufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Early Aprils</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>    
+                </div>
+
+                <div class="card col-md-4 mt-5" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1440186170739-681f007fc4d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHdvbWVufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">In August we believe</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>    
+                </div>
+
+                <div class="card col-md-4 mt-5" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1522543558187-768b6df7c25c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHdvbWVufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Melbourne</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>    
+                </div>
+
+            </div>
+        </div> 
+    </div>  
+    
+    <!-- Questions And Answers -->
+    <div class="container-fluid" style="margin-top: 7rem;">
+        <p class="forum-title ms-5 mb-5">&nbsp;Questions And Answers</p>
+        <div class="container-fluid">
+            <div class="row space-evenly d-flex justify-content-evenly">
+                <div class="card col-md-6" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1463595663992-cb0dc1d6403f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHdvbWVufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">June's flowers</h5>
+                            <p class="card-text">Cursus eget nunc scelerisque viverra mauris in aliquam. Velit dignissim sodales ut eu sem.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card col-4" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fHdvbWVufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">December 2020</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        </div>
+                    </a>    
+                </div>
+
+                <div class="card col-4" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1504576249-c00dd23c481c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHdvbWVufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Road to ivf March 2021</h5>
+                            <p class="card-text">Ut eu sem integer vitae justo eget magna fermentum iaculis.</p>
+                        </div>
+                    </a>    
+                </div>
+
+                <div class="card col-md-4 mt-5" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1521620860034-0a3430d856d3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHdvbWVufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Early Aprils</h5>
+                            <p class="card-text">Egestas sed tempus urna et pharetra. Elit pellentesque habitant morbi tristique senectus et.</p>
+                        </div>
+                    </a>    
+                </div>
+
+                <div class="card col-md-4 mt-5" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1573878741117-1653384427db?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHdvbWVufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">In August we believe</h5>
+                            <p class="card-text">Ut eu sem integer vitae justo eget magna fermentum iaculis.</p>
+                        </div>
+                    </a>    
+                </div>
+
+                <div class="card col-md-4 mt-5" style="width: 24rem;">
+                    <a class="goto-discuss" href="#">
+                        <img src="https://images.unsplash.com/photo-1518367445291-98ac49923e14?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvbWVufGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Melbourne</h5>
+                            <p class="card-text">Egestas sed tempus urna et pharetra. Elit pellentesque habitant morbi tristique senectus et.</p>
+                        </div>
+                    </a>    
+                </div>
+
+            </div>
+        </div> 
+    </div> 
+    
+
+</div>
+
+
+
+
+
+{% endblock body %}
+
+
+
+
+
+{% block additional_script %}
+<!-- to be filled in -->
+{% endblock additional_script %}

@@ -1,5 +1,5 @@
 #mainNav {
-  background-color: rgba(58, 57, 57, 0.836);
+  background-color: rgb(58, 57, 57);
 }
 #mainNav .navbar-toggler{
     background-color: white;
@@ -91,6 +91,24 @@
     background-color: #25ad19;
   }
 }
+
+
+.footer{
+  background-color: rgb(32, 31, 41);
+  color: rgb(160, 160, 160);
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 
