@@ -1,0 +1,52 @@
+{% extends 'base_layout.html' %}
+
+{% block title %}IVF goup ETH - Contact{% endblock title %}
+
+
+{% block additional_style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/eventStyle.css') }}" type="text/css">
+
+{% endblock additional_style %}
+
+
+
+{% block body %}
+
+<div id="lead-cont" class="container-fluid d-flex align-items-center justify-content-center">
+    <div class="text-center">
+        <span class="center">EVENTS</span>
+    </div>
+</div>
+
+<div class="container-fluid" id="events-body"> 
+    <div class="upcoming-events"><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;Upcoming Events</div>
+    <hr>
+    <div id="cont" class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-3 img-cont">
+            <img src="https://images.unsplash.com/photo-1572866649630-bd38af3d527c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid" alt="...">
+          </div>
+          <div class="col-md-9" style="padding-left: 1rem;">
+            <div class="card-body">
+              <h5 class="card-title pb-2">Women's Day</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque varius morbi enim nunc. Id eu nisl nunc mi.  Tempor id eu nisl nunc mi. Enim neque volutpat ac tincidunt. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula</p>
+              <span><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;50 ETB</span><span><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;Addis Ababa</span><span><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;July 31, 2021</span><span>Google Maps&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-calendar-alt"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+
+
+{% endblock body %}
+
+
+
+
+
+{% block additional_script %}
+<!-- to be filled in -->
+{% endblock additional_script %}

@@ -29,7 +29,11 @@ def about():
 
 @app.route("/forum")
 def forum():
-    return render_template("forum.html")    
+    return render_template("forum.html")   
+
+@app.route("/events")  
+def events():
+    return render_template("events.html")   
 
 
 
