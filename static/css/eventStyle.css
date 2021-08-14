@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 body{
@@ -25,7 +26,6 @@ body{
 }
 
 #lead-cont .text-center .center{
-    /* color: rgb(255, 116, 23); */
     color: #25ad19;
     padding: 3rem;
     border: 3px solid #ffffff ;
@@ -45,19 +45,24 @@ body{
     font-size: 2rem;
     font-family: 'Noto Sans KR', sans-serif;    
     color: rgb(255, 116, 23);
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
-hr{
+#hr{
     height: 0.2rem;
-    max-width: 3.25rem;
+    max-width: 6rem;
+    margin-left: 8rem;
+    margin-top: 1rem;
     background-color: #25ad19;
+    opacity: 1;
 }
 
 #cont{
     border: none;
     width: 80%; 
+    padding: 3rem 0rem;
     margin-left: 3rem;
+    
 }
 #events-body .img-cont img{
     border-radius: 50%;
@@ -66,11 +71,13 @@ hr{
 }
 
 #events-body .card .card-title{
-    font-size: 1.8rem;
+    font-size: 2rem;
+    font-family: 'Style Script', cursive;
 }
 
 #events-body .card .card-text{
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
 }
 
 #events-body .card-body span{
@@ -78,3 +85,18 @@ hr{
     padding: 0rem 2rem;
 }
 
+.card .card-body .google-map{
+    text-decoration: none;
+}
+
+.card .card-body .fa-money-bill-alt{
+    color: #25ad19;
+}
+
+.card .card-body .fa-map-marker-alt{
+    color: rgb(255, 116, 23);
+}
+
+.card .card-body .fa-clock{
+    color: blue;
+}
