@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="author" content="Biniyam Abiy Tirfe" />
         <link rel="shortcut icon" href="{{ url_for('static', filename='img/fav.png') }}" type="image/x-icon">
-        <title>{% block title %}IVF goup ETH{% endblock title %}</title>
+        <title>{% block title %}Infertility support group in Ethiopia{% endblock title %}</title>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
@@ -17,7 +17,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="{{ url_for('index') }}">IVF Support Group Ethiopia</a>
+                <a class="navbar-brand" href="{{ url_for('index') }}">Fertility Tribe, Ethiopia</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
@@ -63,8 +63,8 @@
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">Online support Group of women concerned about IVF in Ethiopia</p>
-                        <a class="btn btn-xl" href="#about">Explore</a>
+                        <p class="text-white-75 mb-5">On line support group for Women through Fertility struggles</p>
+                        <a class="btn btn-xl" href="{{ url_for('forum') }}">Explore</a>
                     </div>
                 </div>
             </div>

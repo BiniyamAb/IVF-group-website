@@ -6,9 +6,11 @@
 
 #about-page-cont{
     margin-top: 6rem;
+    margin-bottom: 4rem
 }
 
 #about-page-cont img{
+    position: fixed;
     width: 38rem;
     height: 38rem;
 }
@@ -30,6 +32,27 @@
 
 #about-page-cont p{
     font-size: 1.3rem;
+    text-indent: 3rem;
+    text-align: justify;
+    font-family: 'Overpass', sans-serif;
+}
+
+#about-page-cont #ul-lead{
+    text-indent: 0rem;
+}
+
+#about-page-cont .join{
+    text-decoration: none;
+}
+
+#about-page-cont .join:hover{
+    color: rgba(255, 116, 23, 0.596);;
+}
+
+
+#about-page-cont ul li{
+    font-size: 1.1rem;
+    margin-left: 3rem;
     text-align: justify;
     font-family: 'Overpass', sans-serif;
 }
